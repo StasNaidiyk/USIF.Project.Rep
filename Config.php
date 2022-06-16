@@ -10,7 +10,7 @@ $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle';
 
 $CFG->dbuser    = 'root';
-$CFG->dbpass    = 'P@ss';
+$CFG->dbpass    = 'P@ss123';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
