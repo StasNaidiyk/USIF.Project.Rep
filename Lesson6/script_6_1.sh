@@ -1,3 +1,3 @@
 #!/bin/bash
-find /d/git/USIF.Project.Rep/usri/sbin > usr_executables.txt
+find /d/git/USIF.Project.Rep/usri/sbin -type f -perm /u=rx  > usr_executables.txt
  
