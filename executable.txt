@@ -1,0 +1,2 @@
+/d/git/usif.project.rep/usr/directory_exists.sh:#!/bin/bash
+/d/git/usif.project.rep/usr/if_else.sh:#!/bin/bash 
