@@ -1,2 +1,11 @@
+/d/git/USIF.Project.Rep/usri/sbin/break_while.sh
+/d/git/USIF.Project.Rep/usri/sbin/brreak.sh
+/d/git/USIF.Project.Rep/usri/sbin/continue.sh
+/d/git/USIF.Project.Rep/usri/sbin/for_cat_file.sh
 /d/git/USIF.Project.Rep/usri/sbin/for_c_style.sh
+/d/git/USIF.Project.Rep/usri/sbin/for_example.sh
+/d/git/USIF.Project.Rep/usri/sbin/for_file_walkthrough.sh
+/d/git/USIF.Project.Rep/usri/sbin/output_file.sh
+/d/git/USIF.Project.Rep/usri/sbin/process_output.sh
+/d/git/USIF.Project.Rep/usri/sbin/users_list.sh
 /d/git/USIF.Project.Rep/usri/sbin/while_example.sh
