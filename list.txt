@@ -1,0 +1,4 @@
+log2.txt
+log1.txt
+log3.txt
+other
