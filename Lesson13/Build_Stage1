@@ -1,0 +1,33 @@
+package _Self.buildTypes
+
+import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.triggers.vcs
+
+object Build : BuildType({
+    name = "Build_stage1"
+
+    vcs {
+        root(HttpsGithubComStasNaidiykCourseRefsHeadsDevelopment)
+    }
+
+    steps {
+        script {
+            name = "Step1"
+            scriptContent = "bash ./script1.sh"
+        }
+        script {
+            name = "Step2"
+            scriptContent = "bash ./script2.sh"
+        }
+        script {
+            name = "Step3"
+            scriptContent = "bash ./script3.sh"
+        }
+    }
+
+    triggers {
+        vcs {
+        }
+    }
+})
