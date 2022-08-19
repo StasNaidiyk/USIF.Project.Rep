@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Checkout') {
+            steps {
+                git branch: 'development',
+                    url:'https://github.com/StasNaidiyk/USIF.Project.Rep.git'
+            }
+        }
+
+        stage ('Start Apache') {
+            steps {
+                dir ('Lesson12') {
+                    sh 'bash task01.sh'
+                    sh 'sleep 3'
+                }
+            }
+        }
+
+        stage ('Checkout status Apache') {
+            steps {
+                dir ('Lesson12') {
+                    sh 'bash task02.sh'
+                }
+            }
+        }
+
+        stage ('Status Build') {
+            steps {
+                dir ('Lesson12') {
+                    sh 'bash task01.sh'
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+11 usr_executables.txt
+     1	/d/git/USIF.Project.Rep/usri/sbin/break_while.sh
+     2	/d/git/USIF.Project.Rep/usri/sbin/brreak.sh
+     3	/d/git/USIF.Project.Rep/usri/sbin/continue.sh
+     4	/d/git/USIF.Project.Rep/usri/sbin/for_cat_file.sh
+     5	/d/git/USIF.Project.Rep/usri/sbin/for_c_style.sh
+     6	/d/git/USIF.Project.Rep/usri/sbin/for_example.sh
+     7	/d/git/USIF.Project.Rep/usri/sbin/for_file_walkthrough.sh
+     8	/d/git/USIF.Project.Rep/usri/sbin/output_file.sh
+     9	/d/git/USIF.Project.Rep/usri/sbin/process_output.sh
+    10	/d/git/USIF.Project.Rep/usri/sbin/users_list.sh
+    11	/d/git/USIF.Project.Rep/usri/sbin/while_example.sh
+Назви перших 10 файлів:
+break_while.sh
+brreak.sh
+continue.sh
+for_cat_file.sh
+for_c_style.sh
+for_example.sh
+for_file_walkthrough.sh
+output_file.sh
+process_output.sh
+users_list.sh
