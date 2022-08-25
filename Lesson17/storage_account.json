@@ -1,0 +1,11 @@
+#Создайте storage account для вашей resource group devops_test_rg со следующими параметрами:
+#Region West EU
+#azurestorage_XXXХ (ХХХХ любой номер)
+#Standard
+#Locally-Redundant(LRS)
+#TLS version 1.1
+#Enable SFTP 
+#Public access
+#Internet routing
+#Enkryption MMK
+#Сделайте экспорт конфигурации вашего Storage account JSON.
