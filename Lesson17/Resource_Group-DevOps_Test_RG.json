@@ -1,0 +1,12 @@
+#Создайте resource group DevOps_Test_RG
+{
+    "id": "/subscriptions/2612ef62-2429-4521-af81-5aa451f37633/resourceGroups/DovOps_Test_RG",
+    "name": "DovOps_Test_RG",
+    "location": "westus3",
+    "tags": {
+        "DovOps_Test_RG": ""
+    },
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}

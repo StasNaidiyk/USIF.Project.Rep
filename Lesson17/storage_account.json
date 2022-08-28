@@ -9,3 +9,55 @@
 #Internet routing
 #Enkryption MMK
 #Сделайте экспорт конфигурации вашего Storage account JSON.
+
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/2612ef62-2429-4521-af81-5aa451f37633/resourceGroups/DovOps_Test_RG/providers/Microsoft.Storage/storageAccounts/azurestorage2022",
+    "name": "azurestorage2022",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "westeurope",
+    "tags": {},
+    "properties": {
+        "minimumTlsVersion": "TLS1_1",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-08-28T16:26:53.4378182Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-08-28T16:26:53.4378182Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-08-28T16:26:52.9534426Z",
+        "primaryEndpoints": {
+            "dfs": "https://azurestorage2022.dfs.core.windows.net/",
+            "web": "https://azurestorage2022.z6.web.core.windows.net/",
+            "blob": "https://azurestorage2022.blob.core.windows.net/",
+            "queue": "https://azurestorage2022.queue.core.windows.net/",
+            "table": "https://azurestorage2022.table.core.windows.net/",
+            "file": "https://azurestorage2022.file.core.windows.net/"
+        },
+        "primaryLocation": "westeurope",
+        "statusOfPrimary": "available"
+    }
+}
