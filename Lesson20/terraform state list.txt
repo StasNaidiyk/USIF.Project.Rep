@@ -1,0 +1,15 @@
+azurerm_resource_group.stas-terraform
+
+azurerm_network_interface_security_group_association.example
+
+azurerm_network_security_group.stas-terraform-nsg
+
+azurerm_subnet.terraform-subnet
+
+azurerm_virtual_network.terraform-network
+
+azurerm_network_interface.stas-terraform-nic
+
+azurerm_public_ip.stas-terraform-ip
+
+azurerm_windows_virtual_machine.stas-terraform
