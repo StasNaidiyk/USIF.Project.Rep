@@ -5,4 +5,6 @@
 Встановив Node Exporter 1.4.0-rc.0
 Встановив Prometheus 2.38.0
 Встановив Grafana 9.1.5
+Встановив Pushgateway 1.4.3
+Встановлено Alertmanager 0.24.0
 Знімки екрану додаються
