@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    tools {
+        terraform 'terraform'
+    }
+
+    stages {
+       
+       stage ('Git checkout') {
+            steps {
+                git branch 'development', credentialsId 'stasNaidiyk_git', url 'httpsgithub.comstasNaidiykFinalProject.git'
+            }
+        }
+        stage ('login azure') {
+            steps {
+               sh 'az login'
+            }
+        }
+         stage ('terraform init') {
+            steps {
+                sh 'terraform init'
+            }
+        }
+        stage ('terraform apply') {
+            steps {
+                sh 'terraform apply --auto-approve'
+            }
+        }
+        stage ('insert data') {
+            steps {
+                sh 'mysql --host=naidiyk-mysql-server.mysql.database.azure.com --user=adminmysql@ --password= test-db  .script_mysql_done.sql'
+            }
+        }
+        stage ('start grafana') {
+            steps {
+                sh 'docker start grafana '
+            }
+        }
+    }
+}
